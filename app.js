@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import cors from 'cors';
 import express from 'express'
 import dotenv from 'dotenv';
 import {test} from "./backend/controllers/jugadores.controller.js"
@@ -20,6 +19,6 @@ app.listen(4000, ()=>{
     console.log('se escucha la base de datos')
 })
 
-test()
+
     
 

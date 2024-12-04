@@ -1,9 +1,9 @@
-import { Schema, model } from "mongoose";
+import { Schema, model } from "mongose";
 
-const EsquemaJugadores = new Schema({
+const EsquemaJugadores = new schema({
     name: String,
     apepat:String,
     numero: Number
 })
 
-export const ModeloJugadores = new model('tabla de jugadores', EsquemaJugadores)
+const ModeloJugadores = model('tabla de jugadores', EsquemaJugadores)

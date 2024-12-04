@@ -1,9 +1,9 @@
-import { ModeloJugadores } from "../models/jugadores.model.js";
+import { ModeloJugadores } from "../models/jugadores.model";
 
-ModeloJugadores.create({
-    name: 'el chino',
-    appepat: 'huerta',
-    numero:10
+ModeloJugadorescreate({
+    name: 'Messi',
+    appepat: 'sochooo',
+    numero:99
 })
 
 export const test = ()=>{
